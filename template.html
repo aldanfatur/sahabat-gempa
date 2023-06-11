@@ -103,7 +103,7 @@
           berkualitas dan bermanfaat bagi orang sekitar kita. Yuk pelajari
           caranya!
         </p>
-        <button class="btn-solid-lg" href="#your-link">Mulai</button>
+        <a class="btn-solid-lg page-scroll" href="#features">Mulai</a>
       </div>
       <div class="xl:text-right">
         <img class="inline" src="src/img/Asset 1.png" alt="alternative" />
@@ -115,16 +115,24 @@
   <!-- end of header -->
 
   <!-- Features -->
-  <div id="features" class="w-full h-auto bg-yellow-400 mb-20 mt-20 container mx-auto relative">
-    <div class="grid grid-cols-1 md:grid md:grid-cols-2 gap-20">
-      <div class="bg-blue-900 w-auto h-24 mx-auto rounded-full px-6 container mt-24 flex items-center justify-center">
+  <style>
+    .bg-custom-bg-image {
+      background-image: url('/src/img/bg-grid.png');
+      /* additional background properties */
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+  <div id="features" class="w-full h-auto bg-custom-bg-image mb-20 mt-20 relative">
+    <!-- Content goes here -->
+    <div class="grid grid-cols-1 md:grid md:grid-cols-2 gap-4 container mx-auto ">
+      <div class="bg-blue-900 w-auto h-20 mx-auto rounded-full px-6 container mt-24 flex items-center justify-center">
         <h1 class="text-white">Pre Production</h1>
       </div>
-      <div class="bg-blue-900 w-auto h-24 mx-auto rounded-full px-6 container flex items-center justify-center">
-        <h1 class="text-white">Stuktur</h1>
+      <div class="px-6">
+        <h4 class="text-blue-900 py-6 flex text-center justify-center">Dasar cara bikin konten untuk sosial media!</h4>
       </div>
 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+
 
       <div id="controls-carousel" class="relative w-full " data-carousel="static">
         <!-- Carousel wrapper -->
@@ -144,11 +152,11 @@
                 <div class="bg-yellow-100 border-t-2 border-blue-900 rounded-b-2xl h-full">
                   <div class="p-4 relative">
                     <img src="/src/img/PP_1HP.png" class="absolute inset-0 my-auto mx-auto z-0 opacity-80" />
-                    <div class="flex items-end justify-between z-10 mt-40">
+                    <div class="flex z-10 mt-40">
                       <h3 class="text-blue-900 relative">Video <br />Vertikal</h3>
-                      <span class="material-symbols-outlined rounded-full bg-blue-600 text-white">
+                      <!-- <span class="material-symbols-outlined rounded-full bg-blue-600 text-white">
                         arrow_drop_down
-                      </span>
+                      </span> -->
                     </div>
                   </div>
                 </div>
@@ -177,13 +185,13 @@
                 <div class="bg-yellow-100 border-t-2 border-blue-900 rounded-b-2xl h-full">
                   <div class="p-4 relative">
                     <img src="/src/img/PP_2Jam.png" class="absolute inset-0 my-auto mx-auto z-0 opacity-80" />
-                    <div class="flex items-end justify-between z-10 mt-40">
+                    <div class="flex z-10 mt-40">
                       <h3 class="text-blue-900 relative">
                         Durasi <br />30 detik
                       </h3>
-                      <span class="material-symbols-outlined rounded-full bg-blue-600 text-white">
+                      <!-- <span class="material-symbols-outlined rounded-full bg-blue-600 text-white">
                         arrow_drop_down
-                      </span>
+                      </span> -->
                     </div>
                   </div>
                 </div>
@@ -196,7 +204,8 @@
               </div>
             </div>
           </div>
-          <!-- Item 3 -->
+
+          <!-- Content 3 -->
           <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <div class="flex-row">
               <div
@@ -210,11 +219,11 @@
                 <div class="bg-yellow-100 border-t-2 border-blue-900 rounded-b-2xl h-full">
                   <div class="p-4 relative">
                     <img src="/src/img/PP_3Girl.png" class="absolute inset-0 my-auto mx-auto z-0 opacity-80" />
-                    <div class="flex items-end justify-between z-10 mt-40">
+                    <div class="flex z-10 mt-40">
                       <h3 class="text-blue-900 relative">Cara <br />Bicara</h3>
-                      <span class="material-symbols-outlined rounded-full bg-blue-600 text-white">
+                      <!-- <span class="material-symbols-outlined rounded-full bg-blue-600 text-white">
                         arrow_drop_down
-                      </span>
+                      </span> -->
                     </div>
                   </div>
                 </div>
@@ -256,8 +265,25 @@
       </div>
 
 
+      <!-- Butuh apa aja sih? -->
+      <div class="h-80 w-full bg-transparent px-6 z-0">
+        <div class="px-6">
+          <h4 class="text-blue-900 py-6 flex text-center justify-center">Bikin konten, butuh apa aja sih?
+          </h4>
+        </div>
+        <div class="bg-white w-full h-auto border-2 mx-auto p-6 border-blue-900 rounded-2xl">
+          <div class="grid grid-cols-3 justify-center gap-4">
+            <img src="src/img/PP_1.png" class="w-36 h-auto">
+            <img src="src/img/PP_2.png" class="w-36 h-auto">
+            <img src="src/img/PP_3.png" class="w-36 h-auto">
+            <div class="col-span-3 flex justify-center">
+              <img src="src/img/PP_4.png" class="w-36 h-auto">
+              <img src="src/img/PP_5.png" class="w-36 h-auto">
+            </div>
+          </div>
+        </div>
 
-      <div class="h-80 w-full bg-purple-600 z-0">aa</div>
+      </div>
     </div>
   </div>
   </div>
