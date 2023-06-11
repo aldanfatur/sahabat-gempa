@@ -12,6 +12,11 @@ module.exports = {
       fontFamily: {
         ubuntu: ["Ubuntu", "sans-serif"],
       },
+      height: {
+        "h-128": "32rem", // Adjust the value as per your requirement
+        "h-160": "40rem",
+        // Add more height values if needed
+      },
     },
   },
   plugins: [],
