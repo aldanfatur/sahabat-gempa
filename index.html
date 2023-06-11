@@ -1,465 +1,616 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Sahabat Gempa" />
-    <meta name="author" content="Tim Sahabat Gempa" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <!-- Webpage Title -->
-    <title>Sahabat Gempa - Segera Hadir!</title>
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Pavo is a mobile app Tailwind CSS HTML template created to help you present benefits, features and information about mobile apps in order to convince visitors to download them" />
+  <meta name="author" content="Your name" />
 
-    <!-- Styles -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" />
-    <link href="css/fontawesome-all.css" rel="stylesheet" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
-      rel="stylesheet" />
-    <link
-      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
-      rel="stylesheet" />
-    <link href="css/swiper.css" rel="stylesheet" />
-    <link href="css/magnific-popup.css" rel="stylesheet" />
-    <link href="css/styles.css" rel="stylesheet" />
+  <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
+  <meta property="og:site_name" content="" />
+  <!-- website name -->
+  <meta property="og:site" content="" />
+  <!-- website link -->
+  <meta property="og:title" content="" />
+  <!-- title shown in the actual shared post -->
+  <meta property="og:description" content="" />
+  <!-- description shown in the actual shared post -->
+  <meta property="og:image" content="" />
+  <!-- image link, make sure it's jpg -->
+  <meta property="og:url" content="" />
+  <!-- where do you want your post to link to -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <!-- to have large image post format in Twitter -->
 
-    <!-- Favicon  -->
-    <link rel="icon" href="images/favicon.png" />
-  </head>
-  <body data-spy="scroll" data-target=".fixed-top">
-    <!-- Navigation -->
-    <nav class="navbar fixed-top">
-      <div
-        class="container sm:px-4 lg:px-8 flex flex-wrap items-center justify-between lg:flex-nowrap">
-        <!-- Image Logo -->
-        <a
-          class="inline-block mr-4 py-0.5 text-xl whitespace-nowrap hover:no-underline focus:no-underline"
-          href="index.html">
-          <img src="src/img/Logo.png" alt="alternative" class="h-14" />
-        </a>
+  <!-- Webpage Title -->
+  <title>Sahabat Gempa</title>
 
-        <button
-          class="background-transparent rounded text-xl leading-none hover:no-underline focus:no-underline lg:hidden lg:text-gray-400"
-          type="button"
-          data-toggle="offcanvas">
+  <!-- Styles -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+    rel="stylesheet" />
+  <link href="css/fontawesome-all.css" rel="stylesheet" />
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+  <link href="css/swiper.css" rel="stylesheet" />
+  <link href="css/magnific-popup.css" rel="stylesheet" />
+  <link href="css/styles.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet" /> -->
+
+
+  <!-- Favicon  -->
+  <link rel="icon" href="images/favicon.png" />
+</head>
+
+<body data-spy="scroll" data-target=".fixed-top">
+  <!-- Navigation -->
+  <nav class="navbar fixed-top">
+    <div class="container sm:px-4 lg:px-8 flex flex-wrap items-center justify-between lg:flex-nowrap">
+      <!-- Text Logo - Use this if you don't have a graphic logo -->
+      <!-- <a class="text-gray-800 font-semibold text-3xl leading-4 no-underline page-scroll" href="index.html">Pavo</a> -->
+
+      <!-- Image Logo -->
+      <a class="inline-block mr-4 py-0.5 text-xl whitespace-nowrap hover:no-underline focus:no-underline"
+        href="index.html">
+        <img src="src/img/Logo.png" alt="alternative" class="h-14" />
+      </a>
+
+      <button
+        class="background-transparent rounded text-xl leading-none hover:no-underline focus:no-underline lg:hidden lg:text-gray-400"
+        type="button" data-toggle="offcanvas">
+        <span class="navbar-toggler-icon inline-block w-8 h-8 align-middle"></span>
+      </button>
+
+      <div class="navbar-collapse offcanvas-collapse lg:flex lg:flex-grow lg:items-center" id="navbarsExampleDefault">
+        <ul class="pl-0 mt-3 mb-2 ml-auto flex flex-col list-none lg:mt-0 lg:mb-0 lg:flex-row">
+          <li>
+            <a class="nav-link page-scroll active" href="#header">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li>
+            <a class="nav-link page-scroll" href="#features">Produksi</a>
+          </li>
+          <li>
+            <a class="nav-link page-scroll" href="#details">Etika Sosial Media</a>
+          </li>
+          <li>
+            <a class="nav-link page-scroll" href="#pricing">Contoh</a>
+          </li>
+        </ul>
+      </div>
+      <!-- end of navbar-collapse -->
+    </div>
+    <!-- end of container -->
+  </nav>
+  <!-- end of navbar -->
+  <!-- end of navigation -->
+
+  <!-- Header -->
+  <header id="header" class="header pt-28 text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-32">
+    <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-2 lg:gap-x-8">
+      <div class="mb-16 lg:mt-32 xl:mt-24 xl:mr-12">
+        <h1 class="h1-medium mb-5">Content Creating 101</h1>
+        <p class="p-large mb-8">
+          Menjadi konten kreator dan membuat konten tidak serumit yang kita
+          bayangkan. Semua orang dapat membuat dan menghasilkan konten yang
+          berkualitas dan bermanfaat bagi orang sekitar kita. Yuk pelajari
+          caranya!
+        </p>
+        <a class="btn-solid-lg page-scroll" href="#features">Mulai</a>
+      </div>
+      <div class="xl:text-right">
+        <img class="inline" src="src/img/Asset 1.png" alt="alternative" />
+      </div>
+    </div>
+    <!-- end of container -->
+  </header>
+  <!-- end of header -->
+  <!-- end of header -->
+
+  <!-- Pre-Production -->
+  <style>
+    .bg-custom-bg-image {
+      background-image: url('./src/img/bg-grid.png');
+      /* additional background properties */
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+  <div id="features" class="w-full h-auto bg-custom-bg-image mt-20 relative rounded-t-3xl border-t-2">
+    <!-- Content goes here -->
+    <div class="grid grid-cols-1 md:grid md:grid-cols-2 gap-4 container mx-auto ">
+      <div class="bg-blue-900 w-auto h-20 mx-auto rounded-full px-6 container mt-24 flex items-center justify-center">
+        <h1 class="text-white">Pre Production</h1>
+      </div>
+      <div class="px-6">
+        <h4 class="text-blue-900 py-6 flex text-center justify-center">Dasar cara bikin konten untuk sosial media!</h4>
+      </div>
+
+
+
+      <div id="controls-carousel" class="relative w-full " data-carousel="static">
+        <!-- Carousel wrapper -->
+        <div class="relative h-96 py-60 mx-6 overflow-hidden rounded-s-2xl md:h-96">
+
+          <!-- Content 1-->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <div class="flex-row">
+              <div
+                class="w-auto h-auto bg-white border-2 border-blue-900 rounded-2xl flex flex-col gap-2 hover:bg-slate-50 hover:shadow-lg transition ease-in">
+                <div class="flex items-center bg-transparent rounded-xl p-6">
+                  <span
+                    class="flex justify-center items-center bg-blue-900 text-white rounded-full w-8 h-8 mr-2">1</span>
+                  <h1 class="text-lg text-blue-900">Video</h1>
+                </div>
+
+                <div class="bg-yellow-100 border-t-2 border-blue-900 rounded-b-2xl h-full">
+                  <div class="p-4 relative">
+                    <img src="/src/img/PP_1HP.png" class="absolute inset-0 my-auto mx-auto z-0 opacity-80" />
+                    <div class="flex z-10 mt-40">
+                      <h3 class="text-blue-900 relative">Video <br />Vertikal</h3>
+                      <!-- <span class="material-symbols-outlined rounded-full bg-blue-600 text-white">
+                        arrow_drop_down
+                      </span> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-white h-auto w-full mt-4 rounded-2xl border-2 border-blue-900 p-6">
+                <p class="text-blue-900 font-semibold">
+                  <span class="font-bold">Titkok</span> dan
+                  <span class="font-bold">IG reels </span>menggunakan format video
+                  vertikal
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Content 2-->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <div class="flex-row">
+              <div
+                class="w-auto h-auto bg-white border-2 border-blue-900 rounded-2xl flex flex-col gap-2 hover:bg-slate-50 hover:shadow-lg transition ease-in">
+                <div class="flex items-center bg-transparent rounded-xl p-6">
+                  <span
+                    class="flex justify-center items-center bg-blue-900 text-white rounded-full w-8 h-8 mr-2">2</span>
+                  <h1 class="text-lg text-blue-900">Durasi</h1>
+                </div>
+
+                <div class="bg-yellow-100 border-t-2 border-blue-900 rounded-b-2xl h-full">
+                  <div class="p-4 relative">
+                    <img src="/src/img/PP_2Jam.png" class="absolute inset-0 my-auto mx-auto z-0 opacity-80" />
+                    <div class="flex z-10 mt-40">
+                      <h3 class="text-blue-900 relative">
+                        Durasi <br />30 detik
+                      </h3>
+                      <!-- <span class="material-symbols-outlined rounded-full bg-blue-600 text-white">
+                        arrow_drop_down
+                      </span> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-white h-auto w-full mt-4 rounded-2xl border-2 border-blue-900 p-6">
+                <p class="text-blue-900 font-semibold">
+                  Durasi yang optimal untuk video adalah
+                  <span class="font-bold">30 detik</span>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Content 3 -->
+          <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <div class="flex-row">
+              <div
+                class="w-auto h-auto bg-white border-2 border-blue-900 rounded-2xl flex flex-col gap-2 hover:bg-slate-50 hover:shadow-lg transition ease-in">
+                <div class="flex items-center bg-transparent rounded-xl p-6">
+                  <span
+                    class="flex justify-center items-center bg-blue-900 text-white rounded-full w-8 h-8 mr-2">3</span>
+                  <h1 class="text-lg text-blue-900">Cara</h1>
+                </div>
+
+                <div class="bg-yellow-100 border-t-2 border-blue-900 rounded-b-2xl h-full">
+                  <div class="p-4 relative">
+                    <img src="/src/img/PP_3Girl.png" class="absolute inset-0 my-auto mx-auto z-0 opacity-80" />
+                    <div class="flex z-10 mt-40">
+                      <h3 class="text-blue-900 relative">Cara <br />Bicara</h3>
+                      <!-- <span class="material-symbols-outlined rounded-full bg-blue-600 text-white">
+                        arrow_drop_down
+                      </span> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bg-white h-auto w-full mt-4 rounded-2xl border-2 border-blue-900 p-6">
+                <p class="text-blue-900 font-semibold">
+                  Durasi yang optimal untuk video adalah
+                  <span class="font-bold">30 detik</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Slider controls -->
+        <button type="button"
+          class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+          data-carousel-prev>
           <span
-            class="navbar-toggler-icon inline-block w-8 h-8 align-middle"></span>
+            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-blue-800 group-hover:bg-blue-500 group-focus:ring-white group-focus:outline-none">
+            <svg aria-hidden="true" class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+            </svg>
+            <span class="sr-only">Previous</span>
+          </span>
         </button>
-
-        <div
-          class="navbar-collapse offcanvas-collapse lg:flex lg:flex-grow lg:items-center"
-          id="navbarsExampleDefault">
-          <ul
-            class="pl-0 mt-3 mb-2 ml-auto flex flex-col list-none lg:mt-0 lg:mb-0 lg:flex-row">
-            <li>
-              <a class="nav-link page-scroll active" href="#header"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <!--
-            <li>
-              <a class="nav-link page-scroll" href="#features">Item1</a>
-            </li>
-            <li>
-              <a class="nav-link page-scroll" href="#details">Item2</a>
-            </li>
-            <li>
-              <a class="nav-link page-scroll" href="#pricing">Item3</a>
-            </li> -->
-          </ul>
-        </div>
-        <!-- end of navbar-collapse -->
+        <button type="button"
+          class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+          data-carousel-next>
+          <span
+            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-blue-800 group-hover:bg-blue-500 group-focus:ring-white group-focus:outline-none">
+            <svg aria-hidden="true" class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+            <span class="sr-only">Next</span>
+          </span>
+        </button>
       </div>
-      <!-- end of container -->
-    </nav>
-    <!-- end of navbar -->
-    <!-- end of navigation -->
 
-    <div id="header" class="header py-28 text-center md:pt-40 lg:text-left">
-      <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-2 lg:gap-x-8">
-        <div class="mb-32 lg:mt-20">
-          <h1 class="h1-medium mb-5">Konten Creating 101</h1>
-          <p class="p-large mb-8">
-            Menjadi konten kreator dan membuat konten tidak serumit yang kita
-            bayangkan. Semua orang dapat membuat dan menghasilkan konten yang
-            berkualitas dan bermanfaat bagi orang sekitar kita. Yuk pelajari
-            caranya!
-          </p>
-          <a class="btn-solid-lg" href="https://instagram.com/aldanfatur">
-            Hubungi Developer
-          </a>
+
+      <!-- Butuh apa aja sih? -->
+      <div class="h-80 w-full bg-transparent px-6 z-0 mb-40">
+        <div class="px-6">
+          <h4 class="text-blue-900 py-6 flex text-center justify-center">Bikin konten, butuh apa aja sih?
+          </h4>
         </div>
-        <div class="md:pt-12">
-          <img class="inline" src="src/img/Hero.png" alt="alternative" />
+        <div class="bg-white w-full h-auto border-2 mx-auto p-6 border-blue-900 rounded-2xl">
+          <div class="grid grid-cols-3 justify-center gap-4">
+            <img src="src/img/PP_1.png" class="w-36 h-auto">
+            <img src="src/img/PP_2.png" class="w-36 h-auto">
+            <img src="src/img/PP_3.png" class="w-36 h-auto">
+            <div class="col-span-3 flex justify-center">
+              <img src="src/img/PP_4.png" class="w-36 h-auto">
+              <img src="src/img/PP_5.png" class="w-36 h-auto">
+            </div>
+          </div>
         </div>
+
       </div>
     </div>
-    <div class="w-full h-auto bg-transparent mb-20">
-      <div
-        class="container py-10 px-6 grid grid-cols-2 gap-4 justify-between sm:grid sm:grid-cols-2 md:grid-cols-3 md:gap-10">
-        <!-- Content 1-->
+  </div>
+  </div>
+
+  <!-- end of Pre-Production -->
+
+  <!-- Production -->
+  <div id="Details" class="w-full h-auto bg-yellow-300 relative">
+    <!-- Content goes here -->
+    <div class="grid grid-cols-1 md:grid md:grid-cols-2 gap-4 container mx-auto ">
+      <div class="bg-blue-900 w-auto h-20 mx-auto rounded-full px-6 container mt-24 flex items-center justify-center">
+        <h1 class="text-white">Production</h1>
+      </div>
+      <div class="px-6">
+        <h4 class="text-blue-900 py-6 flex text-center justify-center">Kalo udah bikin rencana, terus harus ngapain?
+        </h4>
+      </div>
+
+      <!-- Card 1 -->
+      <div class="mx-auto container px-6">
         <div
-          class="w-auto h-auto bg-yellow-400 rounded-2xl p-6 flex flex-col gap-6 hover:bg-yellow-500 hover:shadow-lg transition ease-in">
-          <div class="flex items-center bg-transparent rounded-xl">
-            <span
-              class="flex justify-center items-center bg-yellow-600 text-white rounded-full w-8 h-8 mr-2"
-              >1</span
-            >
-            <h1 class="text-lg text-slate-700">Lorem Ipsum</h1>
+          class="w-auto h-auto bg-white border-2 border-blue-900 rounded-2xl hover:bg-slate-50 hover:shadow-lg transition ease-in">
+          <div class="flex items-center bg-transparent rounded-xl p-6">
+            <span class="flex justify-center items-center bg-blue-900 text-white rounded-full w-8 h-8 mr-2">1</span>
+            <h1 class="text-lg text-blue-900">Saatnya merekam kontenmu!</h1>
           </div>
-          <div>
-            <p class="text-white inline">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
-              accusantium corporis fuga recusandae cumque. Maiores ab earum
-              molestias delectus neque quibusdam.
-            </p>
+          <div class="bg-blue-100 p-6 rounded-b-2xl border-t-2 border-blue-900">
+            <p class=" text-blue-900 font-medium">Lakukan sesuai yang kamu sudah tentukan pada tahap pre-produksi</p>
           </div>
-          <div class="flex-col items">
-            <button
-              class="bg-yellow-500 py-2 px-4 w-fit rounded-xl text-white font-bold justify-center items-center flex hover:bg-yellow-700 hover:shadow-lg transition ease-in">
-              Lebih lanjut<span class="material-symbols-outlined">
-                chevron_right
-              </span>
-            </button>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="mx-auto container px-6 ">
+        <div
+          class="w-auto h-auto bg-white border-2 border-blue-900 rounded-2xl hover:bg-slate-50 hover:shadow-lg transition ease-in">
+          <div class="flex items-center bg-transparent rounded-xl p-6">
+            <span class="flex justify-center items-center bg-blue-900 text-white rounded-full w-8 h-8 mr-2">2</span>
+            <h1 class="text-lg text-blue-900">Editing</h1>
+          </div>
+          <div class="bg-blue-100 p-6 rounded-b-2xl border-t-2 border-blue-900">
+            <p class=" text-blue-900 font-medium">Lakukan editing, dan mengecek <span class="font-bold"> kualitas</span>
+              untuk melihat apakah <span class="font-bold"> hasil</span> rekam memiliki gambar dan suara <span
+                class="font-bold"> yang baik</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="mx-auto container px-6 mb-20">
+        <div
+          class="w-auto h-auto bg-white border-2 border-blue-900 rounded-2xl hover:bg-slate-50 hover:shadow-lg transition ease-in">
+          <div class="flex items-center bg-transparent rounded-xl p-6">
+            <span class="flex justify-center items-center bg-blue-900 text-white rounded-full w-8 h-8 mr-2">3</span>
+            <h1 class="text-lg text-blue-900">Sudah siap? Ayo Upload!</h1>
+          </div>
+          <div class="bg-blue-100 p-6 rounded-b-2xl border-t-2 border-blue-900">
+            <p class=" text-blue-900 font-medium">Kalo udah selesai edit, coba cek lagi video yang kamu buat. Kalo udah
+              siap semuanya, yuk upload ke platform pilihanmu!</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- end of Production -->
+
+  <!-- Post-Production -->
+  <div id="features" class="w-full h-auto bg-custom-bg-image rounded-b-3xl relative border-b-2 mb-10 shadow-xl">
+    <!-- Content goes here -->
+    <div class="grid grid-cols-1 md:grid md:grid-cols-2 gap-4 container mx-auto ">
+      <div class="bg-blue-900 w-auto h-20 mx-auto rounded-full px-6 container mt-24 flex items-center justify-center">
+        <h1 class="text-white">Post-Production</h1>
+      </div>
+      <div class="px-6">
+        <h4 class="text-blue-900 py-6 flex text-center justify-center">Udah kelar nih, harus gimana lagi?
+        </h4>
+      </div>
+      <!-- Card -->
+      <div class="mx-auto container px-6 ">
+        <div
+          class="w-auto h-auto bg-blue-100 border-2 border-blue-900 rounded-t-2xl hover:bg-slate-50 hover:shadow-lg transition ease-in">
+          <div class="flex items-center bg-transparent p-6">
+            <h1 class="text-lg text-blue-900">Siapkan caption yang menjelaskan garis besar kontenmu</h1>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card -->
+      <div class="mx-auto container px-6 ">
+        <div
+          class="w-auto h-auto bg-blue-100 border-2 border-blue-900  hover:bg-slate-50 hover:shadow-lg transition ease-in">
+          <div class="flex items-center bg-transparent p-6">
+            <h1 class="text-lg text-blue-900">Konten kamu udah diupload? Kalo ada yang komen, jawab komen dengan bahasa
+              yang baik dan sopan. Terima kritik untuk membuat konten kamu lebih baik lagi kedepannya!</h1>
+          </div>
+        </div>
+      </div>
+      <img src="src/img/P_1.png" class="w-full h-auto z-20 relative container mx-auto px-6 mb-10">
+
+    </div>
+  </div>
+  <!-- end of Post-Production -->
+
+  <!-- Etika Medsos -->
+  <div id="features" class="w-full h-auto bg-white relative">
+    <!-- Content goes here -->
+    <div class="grid grid-cols-1 md:grid md:grid-cols-2 gap-4 container mx-auto ">
+      <div class="bg-yellow-400 w-auto h-20 mx-auto rounded-full px-6 container mt-24 flex items-center justify-center">
+        <h1 class="text-white">Etika Sosial Media</h1>
+      </div>
+      <div class="px-6">
+        <h4 class="text-blue-900 py-6 flex text-center justify-center">Eh iya, kayaknya kamu juga perlu tau etika
+          bermedsos biar ga kena masalah deh
+        </h4>
+      </div>
+
+
+      <div id="controls-carousel" class="relative w-full mb-5" data-carousel="static">
+        <!-- Carousel wrapper -->
+        <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+          <!-- Item 1 -->
+          <div class="hidden duration-700 ease-in-out flex items-center justify-center" data-carousel-item>
+            <div class="h-56 w-56 bg-blue-900 flex flex-col items-center justify-center rounded-full">
+              <h1 class="text-blue-50 font-medium"> #1 </h1>
+              <p class="text-white font-bold text-lg"> Konten Mengerikan! </p>
+            </div>
+          </div>
+          <!-- Item 2 -->
+          <div class="hidden duration-700 ease-in-out flex items-center justify-center" data-carousel-item>
+            <div class="h-56 w-56 bg-blue-900 flex flex-col items-center justify-center rounded-full">
+              <h1 class="text-blue-50 font-medium"> #2 </h1>
+              <p class="text-white font-bold text-lg"> Konten Mengerikan! </p>
+            </div>
+          </div>
+          <!-- Item 3 -->
+          <div class="hidden duration-700 ease-in-out flex items-center justify-center" data-carousel-item>
+            <div class="h-56 w-56 bg-blue-900 flex flex-col items-center justify-center rounded-full">
+              <h1 class="text-blue-50 font-medium"> #3 </h1>
+              <p class="text-white font-bold text-lg"> Konten Mengerikan! </p>
+            </div>
+          </div>
+          <!-- Item 4 -->
+          <div class="hidden duration-700 ease-in-out flex items-center justify-center" data-carousel-item>
+            <div class="h-56 w-56 bg-blue-900 flex flex-col items-center justify-center rounded-full">
+              <h1 class="text-blue-50 font-medium"> #4 </h1>
+              <p class="text-white font-bold text-lg"> Konten Mengerikan! </p>
+            </div>
+          </div>
+          <!-- Item 5 -->
+          <div class="hidden duration-700 ease-in-out flex items-center justify-center" data-carousel-item>
+            <div class="h-56 w-56 bg-blue-900 flex flex-col items-center justify-center rounded-full">
+              <h1 class="text-blue-50 font-medium"> #5 </h1>
+              <p class="text-white font-bold text-lg"> Konten Mengerikan! </p>
+            </div>
+          </div>
+        </div>
+        <!-- Slider controls -->
+        <button type="button"
+          class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+          data-carousel-prev>
+          <span
+            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-transparent  group-hover:bg-white/50 group-focus:ring-4 group-focus:ring-white group-focus:outline-none">
+            <svg aria-hidden="true" class="w-6 h-6 text-blue-900" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+            </svg>
+            <span class="sr-only">Previous</span>
+          </span>
+        </button>
+        <button type="button"
+          class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+          data-carousel-next>
+          <span
+            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-transparent  group-hover:bg-white/50 group-focus:ring-4 group-focus:ring-white group-focus:outline-none">
+            <svg aria-hidden="true" class="w-6 h-6 text-blue-900" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+            </svg>
+            <span class="sr-only">Next</span>
+          </span>
+        </button>
+      </div>
+
+      <div class="mx-auto container px-6 mb-20">
+        <div
+          class="w-auto h-auto bg-yellow-100 border-2 border-blue-900 rounded-2xl hover:bg-slate-50 hover:shadow-lg transition ease-in">
+          <div class="flex items-center justify-center bg-transparent rounded-xl p-6">
+            <h1 class="text-lg text-blue-900">Quick Tips!</h1>
+          </div>
+          <div class="bg-white p-6 rounded-b-2xl border-t-2 border-blue-900">
+            <div class="grid grid-cols-3 justify-center gap-4">
+              <img src="src/img/PP_1.png" class="w-36 h-auto">
+              <img src="src/img/PP_2.png" class="w-36 h-auto">
+              <img src="src/img/PP_3.png" class="w-36 h-auto">
+              <div class="col-span-3 flex justify-center">
+                <img src="src/img/PP_4.png" class="w-36 h-auto">
+                <img src="src/img/PP_5.png" class="w-36 h-auto">
+              </div>
+            </div>
           </div>
         </div>
 
-        <!-- Content 2-->
-        <div
-          class="w-auto h-auto bg-yellow-400 rounded-2xl p-6 flex flex-col gap-6 hover:bg-yellow-500 hover:shadow-lg transition ease-in">
-          <div class="flex items-center bg-transparent rounded-xl">
-            <span
-              class="flex justify-center items-center bg-yellow-600 text-white rounded-full w-8 h-8 mr-2"
-              >1</span
-            >
-            <h1 class="text-lg text-slate-700">Lorem Ipsum</h1>
-          </div>
-          <div>
-            <p class="text-white inline">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
-              accusantium corporis fuga recusandae cumque. Maiores ab earum
-              molestias delectus neque quibusdam.
-            </p>
-          </div>
-          <div class="flex-col items">
-            <button
-              class="bg-yellow-500 py-2 px-4 w-fit rounded-xl text-white font-bold justify-center items-center flex hover:bg-yellow-700 hover:shadow-lg transition ease-in">
-              Lebih lanjut<span class="material-symbols-outlined">
-                chevron_right
-              </span>
-            </button>
-          </div>
-        </div>
 
-        <!-- Content 3-->
-        <div
-          class="w-auto h-auto bg-yellow-400 rounded-2xl p-6 flex flex-col gap-6 hover:bg-yellow-500 hover:shadow-lg transition ease-in">
-          <div class="flex items-center bg-transparent rounded-xl">
-            <span
-              class="flex justify-center items-center bg-yellow-600 text-white rounded-full w-8 h-8 mr-2"
-              >1</span
-            >
-            <h1 class="text-lg text-slate-700">Lorem Ipsum</h1>
-          </div>
-          <div>
-            <p class="text-white inline">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
-              accusantium corporis fuga recusandae cumque. Maiores ab earum
-              molestias delectus neque quibusdam.
-            </p>
-          </div>
-          <div class="flex-col items">
-            <button
-              class="bg-yellow-500 py-2 px-4 w-fit rounded-xl text-white font-bold justify-center items-center flex hover:bg-yellow-700 hover:shadow-lg transition ease-in">
-              Lebih lanjut<span class="material-symbols-outlined">
-                chevron_right
-              </span>
-            </button>
-          </div>
-        </div>
 
-        <!-- Content 4
-        <div
-          class="w-auto h-auto bg-yellow-400 rounded-2xl p-6 flex flex-col gap-6 hover:bg-yellow-500 hover:shadow-lg transition ease-in">
-          <div class="flex items-center bg-transparent rounded-xl">
-            <span
-              class="flex justify-center items-center bg-yellow-600 text-white rounded-full w-8 h-8 mr-2"
-              >1</span
-            >
-            <h1 class="text-lg text-slate-700">Lorem Ipsum</h1>
-          </div>
-          <div>
-            <p class="text-white inline">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
-              accusantium corporis fuga recusandae cumque. Maiores ab earum
-              molestias delectus neque quibusdam.
-            </p>
-          </div>
-          <div class="flex-col items">
-            <button
-              class="bg-yellow-500 py-2 px-4 w-fit rounded-xl text-white font-bold justify-center items-center flex hover:bg-yellow-700 hover:shadow-lg transition ease-in">
-              Lebih lanjut<span class="material-symbols-outlined">
-                chevron_right
-              </span>
-            </button>
-          </div>
-        </div> -->
       </div>
     </div>
+    <!-- end Etika Medsos -->
+
+    <div class="w-full h-0.5 bg-blue-50"></div>
+
+    <!-- Contoh VT -->
+    <div id="features" class="w-full h-auto bg-white relative mb-20">
+      <!-- Content goes here -->
+      <div class="grid grid-cols-1 md:grid md:grid-cols-2 gap-4 container mx-auto ">
+        <div
+          class="bg-yellow-400 w-auto h-20 mx-auto rounded-full px-6 container mt-24 flex items-center justify-center">
+          <h1 class="text-white">Contoh Konten</h1>
+        </div>
+        <div class="px-6">
+          <h4 class="text-blue-900 py-6 flex text-center justify-center">Nih, kita kasih beberapa contoh konten yang
+            keren dan inspiratif 🔥
+          </h4>
+        </div>
+      </div>
+
+      <!-- Tiktok Video -->
+      <script async src="https://www.tiktok.com/embed.js"></script>
+      <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@mysrl_mhndr/video/7237898534220008709"
+        data-video-id="7237898534220008709" style="max-width: 605px;min-width: 325px;">
+        <section> <a target="_blank" title="@mysrl_mhndr"
+            href="https://www.tiktok.com/@mysrl_mhndr?refer=embed">@mysrl_mhndr</a> aku ketika melihat benda yang sangat
+          besar &#34;Pelan pelan pak sopir&#34; Bantu FLKS dung <a title="fyp" target="_blank"
+            href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> <a title="memerandom" target="_blank"
+            href="https://www.tiktok.com/tag/memerandom?refer=embed">#memerandom</a> <a title="memestiktok"
+            target="_blank" href="https://www.tiktok.com/tag/memestiktok?refer=embed">#memestiktok</a> <a title="sepeda"
+            target="_blank" href="https://www.tiktok.com/tag/sepeda?refer=embed">#sepeda</a> <a title="flks"
+            target="_blank" href="https://www.tiktok.com/tag/flks?refer=embed">#flks</a> <a target="_blank"
+            title="♬ suara asli  - semprulllll"
+            href="https://www.tiktok.com/music/suara-asli-semprulllll-7237898537298627333?refer=embed">♬ suara asli -
+            semprulllll</a> </section>
+      </blockquote>
+
+      <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@mysrl_mhndr/video/7237898534220008709"
+        data-video-id="7237898534220008709" style="max-width: 605px;min-width: 325px;">
+        <section> <a target="_blank" title="@mysrl_mhndr"
+            href="https://www.tiktok.com/@mysrl_mhndr?refer=embed">@mysrl_mhndr</a> aku ketika melihat benda yang sangat
+          besar &#34;Pelan pelan pak sopir&#34; Bantu FLKS dung <a title="fyp" target="_blank"
+            href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> <a title="memerandom" target="_blank"
+            href="https://www.tiktok.com/tag/memerandom?refer=embed">#memerandom</a> <a title="memestiktok"
+            target="_blank" href="https://www.tiktok.com/tag/memestiktok?refer=embed">#memestiktok</a> <a title="sepeda"
+            target="_blank" href="https://www.tiktok.com/tag/sepeda?refer=embed">#sepeda</a> <a title="flks"
+            target="_blank" href="https://www.tiktok.com/tag/flks?refer=embed">#flks</a> <a target="_blank"
+            title="♬ suara asli  - semprulllll"
+            href="https://www.tiktok.com/music/suara-asli-semprulllll-7237898537298627333?refer=embed">♬ suara asli -
+            semprulllll</a> </section>
+      </blockquote>
+      <!-- End of Tiktok Video -->
+
+    </div>
+    <!-- end Contoh VT -->
+
 
     <!-- Footer -->
     <div class="footer">
       <div class="container px-4 sm:px-8">
         <h4 class="mb-8 lg:max-w-3xl lg:mx-auto">
-          Copyright ©
-          <a
-            class="text-indigo-600 hover:text-gray-500"
-            href="mailto:email@domain.com"
-            >Aldan Fatu Rahman</a
-          >
-          2023.
+          Copyright © tim
+          <a class="text-indigo-600 hover:text-gray-500" href="mailto:email@domain.com">Sahabat Gempa</a>
+          2023
         </h4>
+        <div class="social-container">
+          <span class="fa-stack">
+            <a href="#">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fab fa-facebook-f fa-stack-1x"></i>
+            </a>
+          </span>
+          <span class="fa-stack">
+            <a href="#">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fab fa-twitter fa-stack-1x"></i>
+            </a>
+          </span>
+          <span class="fa-stack">
+            <a href="#">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fab fa-pinterest-p fa-stack-1x"></i>
+            </a>
+          </span>
+          <span class="fa-stack">
+            <a href="#">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fab fa-instagram fa-stack-1x"></i>
+            </a>
+          </span>
+          <span class="fa-stack">
+            <a href="#">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fab fa-youtube fa-stack-1x"></i>
+            </a>
+          </span>
+        </div>
+        <!-- end of social-container -->
       </div>
       <!-- end of container -->
     </div>
-  </body>
+    <!-- end of footer -->
+    <!-- end of footer -->
+
+    <!-- Copyright -->
+    <div class="copyright">
+      <p class="py-2 text-white">
+        Site by <a href="https://instagram.com/aldanfatur" class="font-semibold">Aldan Fatu Rahman</a>
+      </p>
+    </div>
+  </div>
+  <!-- end of copyright -->
+  <!-- end of copyright -->
+
+  <!-- Scripts -->
+  <script src="js/jquery.min.js"></script>
+  <!-- jQuery for JavaScript plugins -->
+  <script src="js/jquery.easing.min.js"></script>
+  <!-- jQuery Easing for smooth scrolling between anchors -->
+  <script src="js/swiper.min.js"></script>
+  <!-- Swiper for image and text sliders -->
+  <script src="js/jquery.magnific-popup.js"></script>
+  <!-- Magnific Popup for lightboxes -->
+  <script src="js/scripts.js"></script>
+  <!-- Custom scripts -->
+</body>
+
 </html>
-=======
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Sahabat Gempa" />
-    <meta name="author" content="Tim Sahabat Gempa" />
-
-    <!-- Webpage Title -->
-    <title>Sahabat Gempa - Segera Hadir!</title>
-
-    <!-- Styles -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
-      rel="stylesheet" />
-    <link href="css/fontawesome-all.css" rel="stylesheet" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
-      rel="stylesheet" />
-    <link
-      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
-      rel="stylesheet" />
-    <link href="css/swiper.css" rel="stylesheet" />
-    <link href="css/magnific-popup.css" rel="stylesheet" />
-    <link href="css/styles.css" rel="stylesheet" />
-
-    <!-- Favicon  -->
-    <link rel="icon" href="images/favicon.png" />
-  </head>
-  <body data-spy="scroll" data-target=".fixed-top">
-    <!-- Navigation -->
-    <nav class="navbar fixed-top">
-      <div
-        class="container sm:px-4 lg:px-8 flex flex-wrap items-center justify-between lg:flex-nowrap">
-        <!-- Image Logo -->
-        <a
-          class="inline-block mr-4 py-0.5 text-xl whitespace-nowrap hover:no-underline focus:no-underline"
-          href="index.html">
-          <img src="src/img/Logo.png" alt="alternative" class="h-14" />
-        </a>
-
-        <button
-          class="background-transparent rounded text-xl leading-none hover:no-underline focus:no-underline lg:hidden lg:text-gray-400"
-          type="button"
-          data-toggle="offcanvas">
-          <span
-            class="navbar-toggler-icon inline-block w-8 h-8 align-middle"></span>
-        </button>
-
-        <div
-          class="navbar-collapse offcanvas-collapse lg:flex lg:flex-grow lg:items-center"
-          id="navbarsExampleDefault">
-          <ul
-            class="pl-0 mt-3 mb-2 ml-auto flex flex-col list-none lg:mt-0 lg:mb-0 lg:flex-row">
-            <li>
-              <a class="nav-link page-scroll active" href="#header"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <!--
-            <li>
-              <a class="nav-link page-scroll" href="#features">Item1</a>
-            </li>
-            <li>
-              <a class="nav-link page-scroll" href="#details">Item2</a>
-            </li>
-            <li>
-              <a class="nav-link page-scroll" href="#pricing">Item3</a>
-            </li> -->
-          </ul>
-        </div>
-        <!-- end of navbar-collapse -->
-      </div>
-      <!-- end of container -->
-    </nav>
-    <!-- end of navbar -->
-    <!-- end of navigation -->
-
-    <div id="header" class="header py-28 text-center md:pt-40 lg:text-left">
-      <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-2 lg:gap-x-8">
-        <div class="mb-32 lg:mt-20">
-          <h1 class="h1-large mb-5">Segera datang</h1>
-          <p class="p-large mb-8">
-            Saat ini website belajar mitigas bencana bersama Sahabat Gempa
-            sedang dalam proses pengembangan dan akan segera hadir!
-          </p>
-          <a class="btn-solid-lg" href="https://instagram.com/aldanfatur">
-            Hubungi Developer
-          </a>
-        </div>
-        <div class="md:pt-12">
-          <img class="inline" src="src/img/Hero.png" alt="alternative" />
-        </div>
-      </div>
-    </div>
-    <div class="w-full h-auto bg-transparent mb-20">
-      <div
-        class="container py-10 px-6 grid grid-cols-2 gap-4 justify-between md:grid-cols-3 md:gap-10">
-        <!-- Content 1-->
-        <div
-          class="w-auto h-auto bg-yellow-400 rounded-2xl p-6 flex flex-col gap-6 hover:bg-yellow-500 hover:shadow-lg transition ease-in">
-          <div class="flex items-center bg-transparent rounded-xl">
-            <span
-              class="flex justify-center items-center bg-yellow-600 text-white rounded-full w-8 h-8 mr-2"
-              >1</span
-            >
-            <h1 class="text-lg text-slate-700">Lorem Ipsum</h1>
-          </div>
-          <div>
-            <p class="text-white inline">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
-              accusantium corporis fuga recusandae cumque. Maiores ab earum
-              molestias delectus neque quibusdam.
-            </p>
-          </div>
-          <div class="flex-col items">
-            <button
-              class="bg-yellow-500 py-2 px-4 w-fit rounded-xl text-white font-bold justify-center items-center flex hover:bg-yellow-700 hover:shadow-lg transition ease-in">
-              Lebih lanjut<span class="material-symbols-outlined">
-                chevron_right
-              </span>
-            </button>
-          </div>
-        </div>
-
-        <!-- Content 2-->
-        <div
-          class="w-auto h-auto bg-yellow-400 rounded-2xl p-6 flex flex-col gap-6 hover:bg-yellow-500 hover:shadow-lg transition ease-in">
-          <div class="flex items-center bg-transparent rounded-xl">
-            <span
-              class="flex justify-center items-center bg-yellow-600 text-white rounded-full w-8 h-8 mr-2"
-              >1</span
-            >
-            <h1 class="text-lg text-slate-700">Lorem Ipsum</h1>
-          </div>
-          <div>
-            <p class="text-white inline">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
-              accusantium corporis fuga recusandae cumque. Maiores ab earum
-              molestias delectus neque quibusdam.
-            </p>
-          </div>
-          <div class="flex-col items">
-            <button
-              class="bg-yellow-500 py-2 px-4 w-fit rounded-xl text-white font-bold justify-center items-center flex hover:bg-yellow-700 hover:shadow-lg transition ease-in">
-              Lebih lanjut<span class="material-symbols-outlined">
-                chevron_right
-              </span>
-            </button>
-          </div>
-        </div>
-
-        <!-- Content 3-->
-        <div
-          class="w-auto h-auto bg-yellow-400 rounded-2xl p-6 flex flex-col gap-6 hover:bg-yellow-500 hover:shadow-lg transition ease-in">
-          <div class="flex items-center bg-transparent rounded-xl">
-            <span
-              class="flex justify-center items-center bg-yellow-600 text-white rounded-full w-8 h-8 mr-2"
-              >1</span
-            >
-            <h1 class="text-lg text-slate-700">Lorem Ipsum</h1>
-          </div>
-          <div>
-            <p class="text-white inline">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
-              accusantium corporis fuga recusandae cumque. Maiores ab earum
-              molestias delectus neque quibusdam.
-            </p>
-          </div>
-          <div class="flex-col items">
-            <button
-              class="bg-yellow-500 py-2 px-4 w-fit rounded-xl text-white font-bold justify-center items-center flex hover:bg-yellow-700 hover:shadow-lg transition ease-in">
-              Lebih lanjut<span class="material-symbols-outlined">
-                chevron_right
-              </span>
-            </button>
-          </div>
-        </div>
-
-        <!-- Content 4
-        <div
-          class="w-auto h-auto bg-yellow-400 rounded-2xl p-6 flex flex-col gap-6 hover:bg-yellow-500 hover:shadow-lg transition ease-in">
-          <div class="flex items-center bg-transparent rounded-xl">
-            <span
-              class="flex justify-center items-center bg-yellow-600 text-white rounded-full w-8 h-8 mr-2"
-              >1</span
-            >
-            <h1 class="text-lg text-slate-700">Lorem Ipsum</h1>
-          </div>
-          <div>
-            <p class="text-white inline">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa
-              accusantium corporis fuga recusandae cumque. Maiores ab earum
-              molestias delectus neque quibusdam.
-            </p>
-          </div>
-          <div class="flex-col items">
-            <button
-              class="bg-yellow-500 py-2 px-4 w-fit rounded-xl text-white font-bold justify-center items-center flex hover:bg-yellow-700 hover:shadow-lg transition ease-in">
-              Lebih lanjut<span class="material-symbols-outlined">
-                chevron_right
-              </span>
-            </button>
-          </div>
-        </div> -->
-      </div>
-    </div>
-
-    <!-- Footer -->
-    <div class="footer">
-      <div class="container px-4 sm:px-8">
-        <h4 class="mb-8 lg:max-w-3xl lg:mx-auto">
-          Copyright ©
-          <a
-            class="text-indigo-600 hover:text-gray-500"
-            href="mailto:email@domain.com"
-            >Aldan Fatu Rahman</a
-          >
-          2023.
-        </h4>
-      </div>
-      <!-- end of container -->
-    </div>
-  </body>
-</html>
->>>>>>> 13a2a6ec8813f95e6523cca72743b406f8e0a472
