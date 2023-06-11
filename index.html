@@ -24,6 +24,19 @@
   <meta name="twitter:card" content="summary_large_image" />
   <!-- to have large image post format in Twitter -->
 
+  <script>
+    // JavaScript code to detect device and redirect
+    var userAgent = navigator.userAgent.toLowerCase();
+    var isMobile = /mobile|android|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(
+      userAgent
+    );
+
+    if (!isMobile) {
+      // Redirect to another link for non-mobile devices
+      window.location.href = "./landing.html";
+    }
+  </script>
+
   <!-- Webpage Title -->
   <title>Sahabat Gempa</title>
 
@@ -142,7 +155,7 @@
 
                 <div class="bg-yellow-100 border-t-2 border-blue-900 rounded-b-2xl h-full">
                   <div class="p-4 relative">
-                    <img src="/src/img/PP_1HP.png" class="absolute inset-0 my-auto mx-auto z-0 opacity-80" />
+                    <img src="/src/img/1_hp.png" class="absolute inset-0 my-auto mx-auto z-0 opacity-80" />
                     <div class="flex z-10 mt-40">
                       <h3 class="text-blue-900 relative">Video <br />Vertikal</h3>
                       <!-- <span class="material-symbols-outlined rounded-full bg-blue-600 text-white">
@@ -175,7 +188,7 @@
 
                 <div class="bg-yellow-100 border-t-2 border-blue-900 rounded-b-2xl h-full">
                   <div class="p-4 relative">
-                    <img src="/src/img/PP_2Jam.png" class="absolute inset-0 my-auto mx-auto z-0 opacity-80" />
+                    <img src="/src/img/2_jam.png" class="absolute inset-0 my-auto mx-auto z-0 opacity-80" />
                     <div class="flex z-10 mt-40">
                       <h3 class="text-blue-900 relative">
                         Durasi <br />30 detik
@@ -209,7 +222,7 @@
 
                 <div class="bg-yellow-100 border-t-2 border-blue-900 rounded-b-2xl h-full">
                   <div class="p-4 relative">
-                    <img src="/src/img/PP_3Girl.png" class="absolute inset-0 my-auto mx-auto z-0 opacity-80" />
+                    <img src="/src/img/3_siswi.png" class="absolute inset-0 my-auto mx-auto z-0 opacity-80" />
                     <div class="flex z-10 mt-40">
                       <h3 class="text-blue-900 relative">Cara <br />Bicara</h3>
                       <!-- <span class="material-symbols-outlined rounded-full bg-blue-600 text-white">
@@ -583,16 +596,14 @@
       <!-- end of container -->
     </div>
     <!-- end of footer -->
-    <!-- end of footer -->
 
     <!-- Copyright -->
-    <div class="copyright">
-      <p class="py-2 text-white">
+    <div class="bg-blue-900 flex items-center justify-center">
+      <p class="py-2 mx-auto text-white items-center justify-center">
         Site by <a href="https://instagram.com/aldanfatur" class="font-semibold">Aldan Fatu Rahman</a>
       </p>
     </div>
   </div>
-  <!-- end of copyright -->
   <!-- end of copyright -->
 
   <!-- Scripts -->
