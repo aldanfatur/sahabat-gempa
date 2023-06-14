@@ -1,9 +1,9 @@
 #preloader {
-  background: #fff;
+  background: #ffce2f;
   height: 200vh;
   width: 100%;
   position: absolute;
-  z-index: 1040;
+  z-index: 1050;
 }
 
 #preloader-bg {
@@ -13,5 +13,5 @@
   height: 100vh;
   width: 100%;
   position: fixed;
-  z-index: 1040;
+  z-index: 1050;
 }
